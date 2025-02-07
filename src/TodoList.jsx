@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-const API_URL = "http://127.0.0.1:5001";  // 🔹 指向本機端的 Flask API
+// const API_URL = "http://127.0.0.1:5001";  // 🔹 指向本機端的 Flask API
+const API_URL = "https://aitodoappbackend-production.up.railway.app";
 
 const TodoList = () => {
   const [todos, setTodos] = useState([]);
